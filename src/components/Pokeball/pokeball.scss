@@ -1,0 +1,124 @@
+.pokeball img{
+  width: 250px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  left: 15%;
+  top: 15%;
+  border: none;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.mpokeball img{
+  width: 250px;
+  cursor: pointer;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  border: none;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.upokeball img{
+  width: 250px;
+  cursor: pointer;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  border: none;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gpokeball img{
+  width: 275px;
+  cursor: pointer;
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+  display: flex;
+  border: none;
+  margin:auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.TRpokeball img{
+  cursor: pointer;
+  width: 250px;
+  right: 30%;//changes the direction
+  position: absolute;
+  bottom: 10%;
+  border: none;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  margin-top: 8px; 
+  font-size: 30px; 
+  color: black; 
+  border: none;
+  position: absolute;
+  left: 32.5%;
+  bottom: 15%;
+  cursor: pointer;
+}
+
+.label2 {
+  margin-top: 8px; 
+  font-size: 30px; 
+  color: black; 
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  right: 17.5%;
+  top: 27.5%;
+}
+
+.label3 {
+  margin-top: 8px; 
+  font-size: 30px; 
+  color: black; 
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  right: 33.2%;
+  bottom: 15%;
+}
+
+.label4 {
+  margin-top: 8px; 
+  font-size: 30px; 
+  color: black; 
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  left: 43%;
+  top: 27.5%;
+}
+
+.label5 {
+  margin-top: 8px; 
+  font-size: 30px; 
+  color: black; 
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  left: 17.5%;
+  top: 27.5%;
+  z-index: 900;
+}
