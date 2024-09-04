@@ -5,16 +5,16 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
+    title: "Poker vs AI",
+    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    desc: "The Poker-vs-AI project explores the interaction between artificial intelligence (AI) and human strategies in poker, focusing on game theory, decision-making, and strategy optimization. The goal of this project is to simulate poker games between human players and AI, analyze their strategies, and evaluate the performance of AI systems in real-world scenarios against experienced human players.",
+  },
+  {
+    id: 2,
     title: "ReactAdmin Dashboard",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "An admin dashboard is a central hub within a software application or website that provides administrators with a visual overview of key metrics, data, and controls related to the system they manage.",
   },
-  // {
-  //   id: 2,
-  //   title: "Next.js Blog",
-  //   img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  // },
   // {
   //   id: 3,
   //   title: "Vanilla JS App",
