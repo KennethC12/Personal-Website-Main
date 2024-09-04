@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chenkenneth.com/static/css/main.4abb6b8d.css",
-    "main.js": "/chenkenneth.com/static/js/main.2542088c.js",
-    "static/js/453.d09b058b.chunk.js": "/chenkenneth.com/static/js/453.d09b058b.chunk.js",
-    "static/media/pokemon.png": "/chenkenneth.com/static/media/pokemon.d0a2c9c1ea6e9c6f3a2b.png",
-    "index.html": "/chenkenneth.com/index.html",
-    "main.4abb6b8d.css.map": "/chenkenneth.com/static/css/main.4abb6b8d.css.map",
-    "main.2542088c.js.map": "/chenkenneth.com/static/js/main.2542088c.js.map",
-    "453.d09b058b.chunk.js.map": "/chenkenneth.com/static/js/453.d09b058b.chunk.js.map"
+    "main.css": "/static/css/main.bc83f234.css",
+    "main.js": "/static/js/main.57b23aad.js",
+    "static/js/453.d09b058b.chunk.js": "/static/js/453.d09b058b.chunk.js",
+    "static/media/pokemon.png": "/static/media/pokemon.d0a2c9c1ea6e9c6f3a2b.png",
+    "index.html": "/index.html",
+    "main.bc83f234.css.map": "/static/css/main.bc83f234.css.map",
+    "main.57b23aad.js.map": "/static/js/main.57b23aad.js.map",
+    "453.d09b058b.chunk.js.map": "/static/js/453.d09b058b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4abb6b8d.css",
-    "static/js/main.2542088c.js"
+    "static/css/main.bc83f234.css",
+    "static/js/main.57b23aad.js"
   ]
 }
