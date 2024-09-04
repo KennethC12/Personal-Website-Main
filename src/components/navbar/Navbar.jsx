@@ -16,9 +16,9 @@ const Navbar = () => {
           Kenneth Chen
           </motion.span>
         <div className="social">
-          <a href='https://github.com/KennethC12'><img src="/github-logo.png" alt="" /></a>
-          <a href='https://www.linkedin.com/in/kenneth-chen-406860219/'><img src="/linkedin.png" alt="" /></a>
-          <a href='#'><img src="/Email.png" alt="" /></a>
+          <a href='https://github.com/KennethC12'><img src="/images/github-logo.png" alt="" /></a>
+          <a href='https://www.linkedin.com/in/kenneth-chen-406860219/'><img src="/images/linkedin.png" alt="" /></a>
+          <a href='#'><img src="/images/Email.png" alt="" /></a>
 
         </div>
       </div> 
