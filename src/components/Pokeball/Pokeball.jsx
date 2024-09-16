@@ -1,55 +1,45 @@
 import "./pokeball.scss"
 
-
 const Pokeball = () => {
   return (
     <div className="pokeballs">
       <nav>
-        <button className="pokeball">
-          <a href="#About">
-            <img src = "/images/pokeball.png" alt="Pokeball"></img>
-            <span5 className="label5">About Me</span5>
-          </a>
-        </button>
+        <a href="#About" className="pokeball">
+          <img src="/images/pokeball.png" alt="Pokeball" />
+          <span className="label">About Me</span>
+        </a>
       </nav>
 
       <nav>
-        <button className="mpokeball">
-          <a href="#Project">
-            <img src = "/images/mpokeball.png" alt="Master Ball"></img>
-            <span4 className="label4">Projects</span4>
-          </a>
-        </button>
+        <a href="#Project" className="mpokeball">
+          <img src="/images/mpokeball.png" alt="Master Ball" />
+          <span className="label">Projects</span>
+        </a>
       </nav>
       
       <nav>
-        <button className="TRpokeball">
-          <a href="#Contact">
-            <img src = "/images/TRpokeball.png" alt="Team Rocket Ball"></img>
-            <span3 className="label3">Contact</span3>
-          </a>
-        </button>
-      </nav>
-
-      ({/*Not sure how to do resume yet*/})
-      <nav>
-      <button className="upokeball">
-        <img src = "/images/upokeball.png" alt="Ultra Ball"></img>
-        <span2 className="label2">Resume</span2> 
-      </button>
+        <a href="#Contact" className="TRpokeball">
+          <img src="/images/TRpokeball.png" alt="Team Rocket Ball" />
+          <span className="label">Contact</span>
+        </a>
       </nav>
 
       <nav>
-        <button className="gpokeball">
-          <a href="#Experience">
-            <img src = "/images/gpokeball.png" alt="Great Ball"></img>
-            <span className="label">Experience</span>
-          </a>
+        <button className="upokeball">
+          <img src="/images/upokeball.png" alt="Ultra Ball" />
+          <span className="label">Resume</span> 
         </button>
+      </nav>
+
+
+      <nav>
+        <a href="#Experience" className="gpokeball">
+          <img src="/images/gpokeball.png" alt="Great Ball" />
+          <span className="label">Contact</span>
+        </a>
       </nav>
     </div>
   )
 }
-
 
 export default Pokeball;

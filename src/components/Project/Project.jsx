@@ -6,14 +6,14 @@ const items = [
   {
     id: 1,
     title: "Poker vs AI",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/images/PokervsAi.png",
     desc: "The Poker-vs-AI project explores the interaction between artificial intelligence (AI) and human strategies in poker, focusing on game theory, decision-making, and strategy optimization. The goal of this project is to simulate poker games between human players and AI, analyze their strategies, and evaluate the performance of AI systems in real-world scenarios against experienced human players.",
   },
   {
     id: 2,
-    title: "ReactAdmin Dashboard",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "An admin dashboard is a central hub within a software application or website that provides administrators with a visual overview of key metrics, data, and controls related to the system they manage.",
+    title: "AI Web Scraper",
+    img: "/images/AI WebScraper.png",
+    desc: "Developed an AI-powered web scraper to extract data from both login-protected and public websites using Selenium and BeautifulSoup4. Integrated Langchain and Llama 3.1 to intelligently parse and summarize content, delivering key insights to users. Built a user-friendly Streamlit interface to simplify data retrieval and customization.",
   },
   // {
   //   id: 3,

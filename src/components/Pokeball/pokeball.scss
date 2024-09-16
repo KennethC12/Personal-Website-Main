@@ -1,248 +1,73 @@
-.pokeball img {
-  width: 250px;
-  cursor: pointer;
-  position: absolute;
-  z-index: 10;
-  left: 15%;
-  top: 15%;
-  border: none;
-  margin: auto;
+.pokeballs {
+  position: relative;
+  width: 100%;
+  height: 80vh;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+
+  background-size: cover;
 }
 
-.mpokeball img {
-  width: 250px;
-  cursor: pointer;
-  position: absolute;
-  top: 15%;
-  left: 40%;
-  border: none;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.pokeball, .mpokeball, .upokeball, .gpokeball, .TRpokeball {
+  position: relative;
+  margin: 20px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  display: inline-block; /* Ensure it acts like a button */
+  border: none; /* Remove default styles if any */
+  background: none; /* Remove any background */
+  text-decoration: none; /* Remove underline from links */
 }
 
-.upokeball img {
-  width: 250px;
-  cursor: pointer;
-  position: absolute;
-  right: 15%;
-  top: 15%;
-  border: none;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.pokeball img, .mpokeball img, .upokeball img, .gpokeball img, .TRpokeball img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-
-.gpokeball img {
-  width: 275px;
-  cursor: pointer;
-  position: absolute;
-  left: 30%;
-  bottom: 10%;
-  display: flex;
-  border: none;
-  margin: auto;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 16px;
-}
-
-.TRpokeball img {
-  cursor: pointer;
-  width: 250px;
-  position: absolute;
-  right: 30%;
-  bottom: 10%;
-  border: none;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Label styling */
-.label, .label2, .label3, .label4, .label5 {
-  margin-top: 8px;
-  font-size: 30px;
-  color: black;
-  border: none;
-  position: absolute;
-  cursor: pointer;
-}
-
 .label {
-  left: 32.5%;
-  bottom: 15%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
 }
 
-.label2 {
-  right: 17.5%;
-  top: 27.5%;
-}
+/* Responsive adjustments for larger screens */
+@media (min-width: 1024px) {
+  .pokeball, .mpokeball, .upokeball, .gpokeball, .TRpokeball {
+    width: 200px; /* Resize for larger screens */
+    height: 200px;
+  }
 
-.label3 {
-  right: 33.2%;
-  bottom: 15%;
-}
-
-.label4 {
-  left: 43%;
-  top: 27.5%;
-}
-
-.label5 {
-  left: 17.5%;
-  top: 27.5%;
-  z-index: 900;
+  .label {
+    font-size: 18px; /* Adjust font size */
+  }
 }
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-  .pokeball img,
-  .mpokeball img,
-  .upokeball img,
-  .TRpokeball img {
-    width: 150px; /* Reduce the size of Pokeballs */
-  }
-
-  .gpokeball img {
-    width: 200px; /* Slightly reduce Great Ball size */
-  }
-
-  .label,
-  .label2,
-  .label3,
-  .label4,
-  .label5 {
-    font-size: 20px; /* Reduce label font size for smaller screens */
-  }
-
-  /* Adjust positions for smaller screens */
-  .pokeball img {
-    left: 10%;
-    top: 10%;
-  }
-
-  .mpokeball img {
-    left: 35%;
-    top: 10%;
-  }
-
-  .upokeball img {
-    right: 10%;
-    top: 10%;
-  }
-
-  .gpokeball img {
-    left: 25%;
-    bottom: 8%;
-  }
-
-  .TRpokeball img {
-    right: 20%;
-    bottom: 8%;
+  .pokeball, .mpokeball, .upokeball, .gpokeball, .TRpokeball {
+    width: 120px; /* Resize for smaller screens */
+    height: 120px;
   }
 
   .label {
-    left: 27.5%;
-    bottom: 10%;
-  }
-
-  .label2 {
-    right: 12.5%;
-    top: 22.5%;
-  }
-
-  .label3 {
-    right: 28.2%;
-    bottom: 10%;
-  }
-
-  .label4 {
-    left: 38%;
-    top: 22.5%;
-  }
-
-  .label5 {
-    left: 12.5%;
-    top: 22.5%;
+    font-size: 14px; /* Adjust font size */
   }
 }
 
-/* Additional media query for smaller mobile screens */
 @media (max-width: 480px) {
-  .pokeball img,
-  .mpokeball img,
-  .upokeball img,
-  .TRpokeball img {
-    width: 120px; /* Further reduce Pokeball sizes for mobile */
-  }
-
-  .gpokeball img {
-    width: 150px; /* Adjust Great Ball size */
-  }
-
-  .label,
-  .label2,
-  .label3,
-  .label4,
-  .label5 {
-    font-size: 16px; /* Further reduce label font size */
-  }
-
-  /* Adjust positions for smaller mobile screens */
-  .pokeball img {
-    left: 8%;
-    top: 8%;
-  }
-
-  .mpokeball img {
-    left: 30%;
-    top: 8%;
-  }
-
-  .upokeball img {
-    right: 8%;
-    top: 8%;
-  }
-
-  .gpokeball img {
-    left: 22%;
-    bottom: 5%;
-  }
-
-  .TRpokeball img {
-    right: 18%;
-    bottom: 5%;
+  .pokeball, .mpokeball, .upokeball, .gpokeball, .TRpokeball {
+    width: 100px; /* Resize for very small screens */
+    height: 100px;
   }
 
   .label {
-    left: 24%;
-    bottom: 8%;
-  }
-
-  .label2 {
-    right: 10%;
-    top: 18%;
-  }
-
-  .label3 {
-    right: 24%;
-    bottom: 8%;
-  }
-
-  .label4 {
-    left: 32%;
-    top: 18%;
-  }
-
-  .label5 {
-    left: 10%;
-    top: 18%;
+    font-size: 12px; /* Adjust font size */
   }
 }
